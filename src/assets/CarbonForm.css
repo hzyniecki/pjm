@@ -1,0 +1,11 @@
+.form-question-heading {
+  margin-top: 15px;
+  font-weight: 500;
+  color: #696e71;
+}
+
+.carbon-form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
