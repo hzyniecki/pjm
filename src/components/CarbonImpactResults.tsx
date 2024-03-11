@@ -49,6 +49,17 @@ export default function CarbonImpactResults(props: Home) {
                   habits, they contribute positively to global sustainability
                   efforts.
                 </p>
+                <h2 style={{ textAlign: 'center' }}>
+                  Recommendations for Improvement
+                </h2>
+                <p style={{ marginTop: '20px', color: '#696e71' }}>
+                  To mitigate their environmental impact, the participant is
+                  encouraged to enhance their recycling efforts, practice more
+                  consistent water conservation measures, explore greener
+                  transportation options whenever feasible, and consider
+                  reducing meat and dairy consumption in favor of plant-based
+                  alternatives.
+                </p>
               </div>
             ) : total > 10 ? (
               <div>
@@ -68,13 +79,23 @@ export default function CarbonImpactResults(props: Home) {
                   ecological footprint and contribute to environmental
                   conservation efforts.
                 </p>
+                <h2 style={{ textAlign: 'center' }}>
+                  Recommendations for Improvement
+                </h2>
+                <p style={{ marginTop: '20px', color: '#696e71' }}>
+                  To mitigate their environmental impact, the participant is
+                  encouraged to enhance their recycling efforts, practice more
+                  consistent water conservation measures, explore greener
+                  transportation options whenever feasible, and consider
+                  reducing meat and dairy consumption in favor of plant-based
+                  alternatives.
+                </p>
               </div>
             ) : (
               <div>
                 <h1 style={{ textAlign: 'center' }}>
                   Sinificant Carbon Footprint
                 </h1>
-
                 <img
                   src={SignificantImpact}
                   alt='Significant Impact Logo'
@@ -86,6 +107,17 @@ export default function CarbonImpactResults(props: Home) {
                   recycling, water usage, transportation, and dietary habits, is
                   essential for reducing their ecological footprint and
                   fostering sustainability.
+                </p>
+                <h2 style={{ textAlign: 'center' }}>
+                  Recommendations for Improvement
+                </h2>
+                <p style={{ marginTop: '20px', color: '#696e71' }}>
+                  To mitigate their environmental impact, the participant is
+                  encouraged to enhance their recycling efforts, practice more
+                  consistent water conservation measures, explore greener
+                  transportation options whenever feasible, and consider
+                  reducing meat and dairy consumption in favor of plant-based
+                  alternatives.
                 </p>
               </div>
             )}
