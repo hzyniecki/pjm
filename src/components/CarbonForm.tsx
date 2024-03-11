@@ -142,7 +142,7 @@ export default function CarbonForm(props: Home) {
             type='submit'
             variant='contained'
             color='primary'
-            sx={{ marginTop: '15px' }}
+            sx={{ marginTop: '15px', width: '14em' }}
           >
             Submit
           </Button>

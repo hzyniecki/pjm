@@ -139,6 +139,7 @@ export default function CarbonImpactResults(props: Home) {
             <Button
               variant='contained'
               color='primary'
+              sx={{ width: '14em', marginTop: '9rem' }}
               onClick={() => {
                 props.setShowResults(false);
               }}
